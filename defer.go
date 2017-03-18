@@ -4,7 +4,7 @@ import "fmt"
 
 func main() {
 	defer f1() //here, f1 is deferred until main is finished running
-	f2()
+	defer f2()
 }
 
 func f1() {

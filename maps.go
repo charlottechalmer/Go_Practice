@@ -32,7 +32,7 @@ func main() {
 	}
 
 	//this is called the comma ok idiom. It tests for the presence of a pair in the map
-	key := "six"
+	key := "zero"
 
 	var digit int
 	var ok bool
